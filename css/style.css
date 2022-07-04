@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    /* color: #dbdb6b; */
+}
+.heading{
+    text-align: center;
+    color: lightgreen;
+}
+.item{
+    border-radius: 20px;
+}
