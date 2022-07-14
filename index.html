@@ -7,9 +7,14 @@
     <title> Films</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body> 
     <div class="container">
       <h1 class="heading">Films</h1>
+
+      <div class="bookmark">
+        <h3 class="bookmark_heading">Bookmark</h3>
+        <ul class="bookmark-list"></ul>
+      </div>
  
       <select class="js-select">
         <option value="" selected disabled>Genres</option>
@@ -21,10 +26,13 @@
         <option value="Z-A">Z-A</option>
       </select>
 
-      <ul class="list" style="flex-wrap: wrap"></ul>
+      <ul class="list"></ul>
     </div>
 
-    <script src="./js/main.js"></script>
+
+    <div class="modal">modal</div>
+    
     <script src="./js/films.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
